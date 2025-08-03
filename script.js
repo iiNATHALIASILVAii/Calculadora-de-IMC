@@ -30,7 +30,7 @@ function calcularIMC() {
   } else if (imc <= 24.9) {
     classificacao = "com peso normal";
   } else if (imc <= 29.9) {
-    classificacao = "com obrepeso";
+    classificacao = "com sobrepeso";
   } else if (imc >= 30) {
     classificacao = "com besidade";
   } else {
