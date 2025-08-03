@@ -32,7 +32,7 @@ function calcularIMC() {
   } else if (imc <= 29.9) {
     classificacao = "com sobrepeso";
   } else if (imc >= 30) {
-    classificacao = "com besidade";
+    classificacao = "com obesidade";
   } else {
     classificacao = "Com obsesidade grave";
   }
